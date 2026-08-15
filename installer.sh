@@ -26,7 +26,7 @@ TMPFILE="/tmp/vscode_$(tr -dc A-Za-z0-9 </dev/urandom | head -c 12).tar.gz"
 
 # Target directory
 TARGET_DIR="$HOME/opt/vscode"
-VSCODE_BIN_PATH="$TARGET_DIR"
+VSCODE_BIN_PATH="$TARGET_DIR/bin"
 
 # Detect shell and choose rc file
 case "$SHELL" in
